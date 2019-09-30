@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27EB2C3123413DD50095D754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C3023413DD50095D754 /* AppDelegate.swift */; };
+		27EB2C3723413DD70095D754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EB2C3623413DD70095D754 /* Assets.xcassets */; };
+		27EB2C3A23413DD70095D754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EB2C3923413DD70095D754 /* Preview Assets.xcassets */; };
+		27EB2C3D23413DD70095D754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EB2C3B23413DD70095D754 /* LaunchScreen.storyboard */; };
+		27EB2C4923413F0C0095D754 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C4823413F0C0095D754 /* ContainerController.swift */; };
+		27EB2C4B23413F360095D754 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C4A23413F360095D754 /* HomeController.swift */; };
+		27EB2C4D23413F4B0095D754 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C4C23413F4B0095D754 /* MenuController.swift */; };
+		27EB2C4F2341452A0095D754 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C4E2341452A0095D754 /* Protocols.swift */; };
+		27EB2C512341480B0095D754 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C502341480B0095D754 /* MenuOptionCell.swift */; };
+		27EB2C5323414AEF0095D754 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB2C5223414AEF0095D754 /* MenuOption.swift */; };
+		27EB2C56234156D10095D754 /* noteicon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27EB2C55234156D10095D754 /* noteicon.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27EB2C2D23413DD50095D754 /* BankNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EB2C3023413DD50095D754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27EB2C3623413DD70095D754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27EB2C3923413DD70095D754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27EB2C3C23413DD70095D754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27EB2C3E23413DD70095D754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EB2C4823413F0C0095D754 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		27EB2C4A23413F360095D754 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		27EB2C4C23413F4B0095D754 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		27EB2C4E2341452A0095D754 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		27EB2C502341480B0095D754 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		27EB2C5223414AEF0095D754 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		27EB2C55234156D10095D754 /* noteicon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noteicon.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EB2C2A23413DD50095D754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EB2C2423413DD50095D754 = {
+			isa = PBXGroup;
+			children = (
+				27EB2C2F23413DD50095D754 /* BankNoteApp */,
+				27EB2C2E23413DD50095D754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27EB2C2E23413DD50095D754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C2D23413DD50095D754 /* BankNoteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EB2C2F23413DD50095D754 /* BankNoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C4723413E410095D754 /* Utils */,
+				27EB2C4623413E3D0095D754 /* Model */,
+				27EB2C4523413E3A0095D754 /* View */,
+				27EB2C4423413E360095D754 /* Controller */,
+				27EB2C3023413DD50095D754 /* AppDelegate.swift */,
+				27EB2C3623413DD70095D754 /* Assets.xcassets */,
+				27EB2C55234156D10095D754 /* noteicon.jpeg */,
+				27EB2C3B23413DD70095D754 /* LaunchScreen.storyboard */,
+				27EB2C3E23413DD70095D754 /* Info.plist */,
+				27EB2C3823413DD70095D754 /* Preview Content */,
+			);
+			path = BankNoteApp;
+			sourceTree = "<group>";
+		};
+		27EB2C3823413DD70095D754 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C3923413DD70095D754 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27EB2C4423413E360095D754 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C4823413F0C0095D754 /* ContainerController.swift */,
+				27EB2C4A23413F360095D754 /* HomeController.swift */,
+				27EB2C4C23413F4B0095D754 /* MenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27EB2C4523413E3A0095D754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C502341480B0095D754 /* MenuOptionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27EB2C4623413E3D0095D754 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C5223414AEF0095D754 /* MenuOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27EB2C4723413E410095D754 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				27EB2C4E2341452A0095D754 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27EB2C2C23413DD50095D754 /* BankNoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EB2C4123413DD70095D754 /* Build configuration list for PBXNativeTarget "BankNoteApp" */;
+			buildPhases = (
+				27EB2C2923413DD50095D754 /* Sources */,
+				27EB2C2A23413DD50095D754 /* Frameworks */,
+				27EB2C2B23413DD50095D754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankNoteApp;
+			productName = BankNoteApp;
+			productReference = 27EB2C2D23413DD50095D754 /* BankNoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27EB2C2523413DD50095D754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Pradeep;
+				TargetAttributes = {
+					27EB2C2C23413DD50095D754 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 27EB2C2823413DD50095D754 /* Build configuration list for PBXProject "BankNoteApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27EB2C2423413DD50095D754;
+			productRefGroup = 27EB2C2E23413DD50095D754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27EB2C2C23413DD50095D754 /* BankNoteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EB2C2B23413DD50095D754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EB2C56234156D10095D754 /* noteicon.jpeg in Resources */,
+				27EB2C3D23413DD70095D754 /* LaunchScreen.storyboard in Resources */,
+				27EB2C3A23413DD70095D754 /* Preview Assets.xcassets in Resources */,
+				27EB2C3723413DD70095D754 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EB2C2923413DD50095D754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EB2C3123413DD50095D754 /* AppDelegate.swift in Sources */,
+				27EB2C4F2341452A0095D754 /* Protocols.swift in Sources */,
+				27EB2C5323414AEF0095D754 /* MenuOption.swift in Sources */,
+				27EB2C4923413F0C0095D754 /* ContainerController.swift in Sources */,
+				27EB2C512341480B0095D754 /* MenuOptionCell.swift in Sources */,
+				27EB2C4D23413F4B0095D754 /* MenuController.swift in Sources */,
+				27EB2C4B23413F360095D754 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27EB2C3B23413DD70095D754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27EB2C3C23413DD70095D754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27EB2C3F23413DD70095D754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27EB2C4023413DD70095D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27EB2C4223413DD70095D754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BankNoteApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HQ43G34SKK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BankNoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.BankNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27EB2C4323413DD70095D754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BankNoteApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HQ43G34SKK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BankNoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.BankNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EB2C2823413DD50095D754 /* Build configuration list for PBXProject "BankNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EB2C3F23413DD70095D754 /* Debug */,
+				27EB2C4023413DD70095D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EB2C4123413DD70095D754 /* Build configuration list for PBXNativeTarget "BankNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EB2C4223413DD70095D754 /* Debug */,
+				27EB2C4323413DD70095D754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27EB2C2523413DD50095D754 /* Project object */;
+}
